@@ -8,9 +8,13 @@ if not len(sys.argv) == 2:
   sys.exit(1)
 
 properties = []
+counter = 0
 with open(sys.argv[1], 'rb') as csvfile:
   reader = csv.reader(csvfile)
   for line in reader:
+    if counter % 1000 == 0:
+      print counter
+    counter += 1
     latitude = line[0].strip()
     longitude = line[1].strip()
     try:
@@ -21,5 +25,5 @@ with open(sys.argv[1], 'rb') as csvfile:
       print "FAIL", line, str(e)
       properties.append([latitude, longitude, "FAIL"])
 
-with open('2_' + sys.argv[1], 'wb') as writefile:
+with open('3_' + sys.argv[1], 'wb') as writefile:
   csv.writer(writefile).writerows(properties)
