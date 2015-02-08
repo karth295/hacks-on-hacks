@@ -11,8 +11,8 @@ properties = []
 with open(sys.argv[1], 'rb') as csvfile:
   reader = csv.reader(csvfile)
   for line in reader:
-    latitude = line[0].trim()
-    longitude = line[1].trim()
+    latitude = line[0].strip()
+    longitude = line[1].strip()
     try:
       fccdata = urllib2.urlopen('http://data.fcc.gov/api/block/2010/find?format=json&latitude=' + latitude + '&longitude=' + longitude + '&format=json').read()
       fccdata = json.loads(fccdata)
