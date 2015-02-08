@@ -5,6 +5,9 @@ This tool takes multiple data sources and combines them to provide census block 
 developments. For the sake of the hackathon we looked at Chicago, because they had many sources of helpful data. We hope that in the future, 
 this promotes inter-departmental communication regarding government-owned land. 
 
+Image of app:
+http://content.screencast.com/users/palakar/folders/Jing/media/9a24a9d2-9d68-4fe2-aebf-39a6b0265d16/2015-02-08_1323.png
+
 Data sources:
 http://egis.hud.gov/ArcGIS/rest/services/cpdmaps/AcsThematicTract/MapServer/8 -census tract median wage growth over past 10 years
 http://catalog.data.gov/dataset/city-owned-land-inventory-b8efd - vacant land in Chicago
