@@ -29,6 +29,7 @@ public class ChicagoFIBStoCoordinates {
 //			System.out.println(map.keySet().size());
 			return map;
 		}
+
 		
 		public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
 			System.out.println(parseBlocks());

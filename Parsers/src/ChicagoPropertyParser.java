@@ -12,12 +12,15 @@ public class ChicagoPropertyParser {
 	// return map of FIBS code to Property Sizes
 		public static Map<String, Double> getSize() throws FileNotFoundException {
 			Scanner in = new Scanner(new File("ChicagoProperty.csv")); 
+			Scanner blocks = new Scanner(new File("ChicagoCensusBlockFIPS.txt")); 
+
 			String line;
+			String bs;
 			String[] s;
 			line = in.nextLine();
 			Map<String, Double> fipsToSize = new HashMap<String, Double>();
-			while (in.hasNext()) {
-				
+			while (in.hasNext() && blocks.hasNext()) {
+				bs = blocks.nextLine();
 				line = in.nextLine();
 				// more HACKs
 				if (line.charAt(0) == '(') {
@@ -27,14 +30,14 @@ public class ChicagoPropertyParser {
 					
 					// HACK
 					if (s.length > 5) {
-						String cs = s[0].replaceAll("-", "");
-						cs = cs.substring(0, 12);
+//						String cs = s[0].replaceAll("-", "");
+						bs = bs.substring(0, 12);
 						//System.out.println(cs);
-						if(fipsToSize.containsKey(cs)) {
-							double combine = fipsToSize.get(cs) + Double.parseDouble(s[5]);
-							fipsToSize.put(cs, combine);
+						if(fipsToSize.containsKey(bs)) {
+							double combine = fipsToSize.get(bs) + Double.parseDouble(s[5]);
+							fipsToSize.put(bs, combine);
 						} else {
-							fipsToSize.put(cs, Double.parseDouble(s[5]));
+							fipsToSize.put(bs, Double.parseDouble(s[5]));
 						}
 					}
 				}
