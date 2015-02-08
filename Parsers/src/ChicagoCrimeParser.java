@@ -9,7 +9,12 @@ public class ChicagoCrimeParser {
 
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
-		parseCrimeData();
+		Map<String, Double> res = parseCrimeData();
+		Double total = 0.0;
+		for (String c : res.keySet()) {
+			total += res.get(c);
+		}
+		System.out.println(total/res.keySet().size());
 	}
 	
 	// parse location affordability index data

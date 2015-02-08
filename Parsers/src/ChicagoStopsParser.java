@@ -30,10 +30,6 @@ public class ChicagoStopsParser {
 				} else {
 					fipsToStops.put(fib, 1);
 				}
-			
-				
-				
-
 			}
 			return fipsToStops;
 		}
