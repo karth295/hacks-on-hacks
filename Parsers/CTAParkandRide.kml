@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="CTA_ParkandRide">
+  <name>CTA_ParkandRide</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>CTA_ParkandRide</name>
+  <Snippet></Snippet>
+    <Placemark>
+      <name>Linden</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>1050</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Linden</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Purple Line, Evanston Express</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>349 W. Linden Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>328</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.691839,42.073388,0.000000 -87.691677,42.073387,0.000000 -87.691671,42.073180,0.000000 -87.691535,42.073130,0.000000 -87.691239,42.072841,0.000000 -87.690729,42.072032,0.000000 -87.691836,42.072041,0.000000 -87.691839,42.073388,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Skokie</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>140</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Skokie</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Yellow Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>5005 W. Dempster Street</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>441</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.752564,42.040933,0.000000 -87.753538,42.044039,0.000000 -87.753289,42.044081,0.000000 -87.752457,42.041316,0.000000 -87.752363,42.041319,0.000000 -87.752237,42.040924,0.000000 -87.751751,42.040685,0.000000 -87.750937,42.038155,0.000000 -87.751004,42.037934,0.000000 -87.750662,42.037191,0.000000 -87.750862,42.037149,0.000000 -87.750175,42.036091,0.000000 -87.750380,42.035563,0.000000 -87.751179,42.036235,0.000000 -87.751225,42.036346,0.000000 -87.751271,42.036336,0.000000 -87.751617,42.037385,0.000000 -87.751725,42.037754,0.000000 -87.751438,42.037829,0.000000 -87.751890,42.038831,0.000000 -87.752055,42.039451,0.000000 -87.752277,42.039910,0.000000 -87.751934,42.039994,0.000000 -87.752207,42.040818,0.000000 -87.752564,42.040933,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Halsted/Archer</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>1130</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Halsted/Archer</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Orange Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>2520 S. Archer Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>31</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.647669,41.846378,0.000000 -87.647670,41.846264,0.000000 -87.647669,41.846132,0.000000 -87.648179,41.846114,0.000000 -87.648187,41.846170,0.000000 -87.648240,41.846229,0.000000 -87.647767,41.846459,0.000000 -87.647752,41.846378,0.000000 -87.647669,41.846378,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Harlem</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>750</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Harlem</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Blue Line (O'Hare)</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>5550 N. Harlem Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>53</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.809597,41.982092,0.000000 -87.809518,41.982107,0.000000 -87.809061,41.982107,0.000000 -87.808591,41.982049,0.000000 -87.808808,41.981667,0.000000 -87.809032,41.981731,0.000000 -87.809327,41.981811,0.000000 -87.809520,41.981851,0.000000 -87.809643,41.981896,0.000000 -87.809658,41.981933,0.000000 -87.809642,41.982047,0.000000 -87.809597,41.982092,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Pulaski/51st</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>960</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Pulaski/51st</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Orange Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>5106 S. Pulaski Road</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>390</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.727680,41.798887,0.000000 -87.727783,41.799102,0.000000 -87.726892,41.799454,0.000000 -87.726805,41.799334,0.000000 -87.725445,41.799828,0.000000 -87.725396,41.799763,0.000000 -87.725352,41.799649,0.000000 -87.728038,41.798555,0.000000 -87.728089,41.798728,0.000000 -87.727680,41.798887,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Howard</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>900</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Howard</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Red, Yellow, Purple, Evanston Express</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>7474 N Rogers</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>592</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.671966,42.017710,0.000000 -87.672854,42.017305,0.000000 -87.672840,42.018292,0.000000 -87.672370,42.018287,0.000000 -87.672298,42.018341,0.000000 -87.671962,42.018070,0.000000 -87.671966,42.017710,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Western/49th</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>310</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Western/49th</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Orange Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>4901 S. Western Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>200</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.684515,41.804358,0.000000 -87.684513,41.804288,0.000000 -87.684777,41.804278,0.000000 -87.684773,41.804227,0.000000 -87.685132,41.804219,0.000000 -87.685127,41.804059,0.000000 -87.686636,41.804035,0.000000 -87.686648,41.804391,0.000000 -87.684764,41.804423,0.000000 -87.684765,41.804352,0.000000 -87.684515,41.804358,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>35th/Archer</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>120</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>35th/Archer</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Orange Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>3528 S. Leavitt Street</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>69</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.680020,41.829698,0.000000 -87.679283,41.830171,0.000000 -87.679122,41.830033,0.000000 -87.680017,41.829490,0.000000 -87.680020,41.829698,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Ashland/63rd</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>290</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Ashland/63rd</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Green Line (Englewood)</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>6315 S. Ashland Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>235</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.663995,41.777749,0.000000 -87.664018,41.778587,0.000000 -87.663092,41.778600,0.000000 -87.663062,41.777762,0.000000 -87.663995,41.777749,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Kedzie/48th</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>1150</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Kedzie/48th</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Orange Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>3243 W 48th Place</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>157</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.705415,41.805593,0.000000 -87.705402,41.805388,0.000000 -87.705261,41.805393,0.000000 -87.705233,41.804691,0.000000 -87.705323,41.804688,0.000000 -87.705381,41.804676,0.000000 -87.705449,41.804659,0.000000 -87.705527,41.804645,0.000000 -87.705633,41.804648,0.000000 -87.705730,41.804648,0.000000 -87.705839,41.804653,0.000000 -87.705910,41.804667,0.000000 -87.705905,41.804712,0.000000 -87.705885,41.804809,0.000000 -87.705945,41.804822,0.000000 -87.705931,41.804846,0.000000 -87.705897,41.804894,0.000000 -87.705866,41.804947,0.000000 -87.705807,41.805011,0.000000 -87.705786,41.805064,0.000000 -87.705772,41.805119,0.000000 -87.705757,41.805161,0.000000 -87.705748,41.805222,0.000000 -87.705733,41.805285,0.000000 -87.705733,41.805593,0.000000 -87.705415,41.805593,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Kimball</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>1290</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Kimball</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Brown Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>4755-57 N. Kimball Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>73</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.712626,41.968029,0.000000 -87.712454,41.968036,0.000000 -87.712430,41.967470,0.000000 -87.712380,41.966727,0.000000 -87.712317,41.966464,0.000000 -87.712296,41.966413,0.000000 -87.712303,41.966368,0.000000 -87.712374,41.966299,0.000000 -87.712484,41.966274,0.000000 -87.712587,41.966285,0.000000 -87.712634,41.966325,0.000000 -87.712690,41.966380,0.000000 -87.712672,41.966505,0.000000 -87.712640,41.966557,0.000000 -87.712585,41.967172,0.000000 -87.712626,41.968029,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Garfield</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>510</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Garfield</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Green Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>5419-49 S. Prairie Ave.</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>117</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.619056,41.796048,0.000000 -87.618466,41.796052,0.000000 -87.618446,41.795287,0.000000 -87.619025,41.795286,0.000000 -87.619056,41.796048,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>54/Cermak</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>580</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>54/Cermak</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Pink Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>Cermak &#38;amp; Central Ave</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 24 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>175</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.749340,41.851792,0.000000 -87.753613,41.851735,0.000000 -87.753612,41.851834,0.000000 -87.751994,41.851867,0.000000 -87.751737,41.851871,0.000000 -87.751276,41.851848,0.000000 -87.749348,41.851836,0.000000 -87.749340,41.851792,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.762079,41.851629,0.000000 -87.763787,41.851601,0.000000 -87.763805,41.851769,0.000000 -87.762077,41.851796,0.000000 -87.762079,41.851629,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.759811,41.851748,0.000000 -87.760000,41.851743,0.000000 -87.760147,41.851745,0.000000 -87.760172,41.851940,0.000000 -87.759137,41.851943,0.000000 -87.759138,41.851833,0.000000 -87.759546,41.851781,0.000000 -87.759811,41.851748,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.759150,41.851638,0.000000 -87.759412,41.851639,0.000000 -87.759411,41.851733,0.000000 -87.759150,41.851732,0.000000 -87.759150,41.851638,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Midway</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>930</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Midway</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Orange Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>4612 W. 59th Street</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 12 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>311</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.738651,41.785745,0.000000 -87.738643,41.785732,0.000000 -87.739206,41.784780,0.000000 -87.739384,41.784565,0.000000 -87.739604,41.784462,0.000000 -87.739831,41.784392,0.000000 -87.739920,41.784446,0.000000 -87.739926,41.784912,0.000000 -87.739233,41.785996,0.000000 -87.738683,41.785812,0.000000 -87.738651,41.785745,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Cumberland</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>230</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Cumberland</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Blue Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>5800 N. Cumberland Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$4.00 for 12 Hrs. then varies</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>1633</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.838137,41.984034,0.000000 -87.836981,41.984091,0.000000 -87.836869,41.982826,0.000000 -87.836857,41.982633,0.000000 -87.836914,41.982579,0.000000 -87.836941,41.982563,0.000000 -87.837003,41.982550,0.000000 -87.837075,41.982549,0.000000 -87.837185,41.982551,0.000000 -87.837247,41.982559,0.000000 -87.837321,41.982571,0.000000 -87.837426,41.982613,0.000000 -87.838026,41.982970,0.000000 -87.838058,41.983100,0.000000 -87.838137,41.984034,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Rosemont</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>820</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Rosemont</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Blue Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>5801 N. River Road</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$5.00 for 14 Hours</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>737</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.860537,41.985953,0.000000 -87.859588,41.985457,0.000000 -87.859128,41.985219,0.000000 -87.858978,41.985129,0.000000 -87.858710,41.985011,0.000000 -87.858392,41.984886,0.000000 -87.857397,41.984551,0.000000 -87.857444,41.984268,0.000000 -87.858015,41.984102,0.000000 -87.858435,41.984025,0.000000 -87.858717,41.983993,0.000000 -87.859143,41.983943,0.000000 -87.859879,41.983918,0.000000 -87.859899,41.983939,0.000000 -87.859716,41.984722,0.000000 -87.859782,41.984773,0.000000 -87.859825,41.984866,0.000000 -87.859966,41.985084,0.000000 -87.860613,41.985159,0.000000 -87.860610,41.985215,0.000000 -87.860726,41.985234,0.000000 -87.860742,41.985284,0.000000 -87.860604,41.985926,0.000000 -87.860537,41.985953,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+    <Placemark>
+      <name>Forest Park</name>
+      <styleUrl>#PolyStyle00</styleUrl>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<body leftmargin="0" topmargin="0" bottommargin="0" rightmargin="0">
+<font face="Arial">
+<table border="1" width="300" cellpadding="5" cellspacing="0">
+<tr bgcolor="#9CBCE2">
+<th width="50&#37;" align="left">Field Name</th>
+<th width="50&#37;" align="left">Field Value</th>
+</tr>
+<tr>
+<td>Station ID</td>
+<td>390</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Station Name</td>
+<td>Forest Park</td>
+</tr>
+<tr>
+<td>Rail Line</td>
+<td>Blue Line</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Address</td>
+<td>711 S. Des Plaines Avenue</td>
+</tr>
+<tr>
+<td>Parking Cost</td>
+<td>$5.00 for 15 Hrs. then varies</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Parking Spaces</td>
+<td>648</td>
+</tr>
+</table>
+</font>
+</body>
+</html>
+]]></description>
+      <MultiGeometry>
+        <Polygon>
+          <tessellate>1</tessellate>
+          <extrude>0</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs><LinearRing><coordinates> -87.818679,41.874778,0.000000 -87.819015,41.874568,0.000000 -87.819097,41.874556,0.000000 -87.822857,41.874887,0.000000 -87.822856,41.875064,0.000000 -87.819212,41.874753,0.000000 -87.819149,41.874748,0.000000 -87.819086,41.874809,0.000000 -87.818679,41.874778,0.000000</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </MultiGeometry>
+    </Placemark>
+  </Folder>
+  <Style id="PolyStyle00">
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <LineStyle>
+      <color>ff000000</color>
+      <width>0.400000</width>
+    </LineStyle>
+    <PolyStyle>
+      <color>ff8985d6</color>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
