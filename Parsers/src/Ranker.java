@@ -31,7 +31,7 @@ public class Ranker {
 		PropertySize = ChicagoPropertyParser.getSize();
 		
 		// FIPS -> HousingAsPercentage, TransitAsPercentage, Median Income, EmploymentAccessability 
-		// LocateAffordIndex = ChicagoLocatAffordParser.parseLAIData();
+		LocateAffordIndex = ChicagoLocatAffordParser.parseLAIData();
 		
 		// FIPS -> Crime Count
 		CrimeCount = ChicagoCrimeParser.parseCrimeData();
@@ -78,12 +78,14 @@ public class Ranker {
 				//System.out.println("Crime Match");
 				a.crime = CrimeCount.get(c);
 			}
-//			Double[] data = LocateAffordIndex.get(c);
-//			a.employmentAccessability = data[3];
-//			a.medianHHIncome = data[2];
-//			a.transitAsPercent = data[1];
-//			a.housingAsPercent = data[0];
 			
+			if (LocateAffordIndex.containsKey(c)) {
+				Double[] data = LocateAffordIndex.get(c);
+				a.employmentAccessability = data[3];
+				a.medianHHIncome = data[2];
+				a.transitAsPercent = data[1];
+				a.housingAsPercent = data[0];
+			}
 			//a.crime = CrimeCount.get(c);
 			//System.out.println(match);
 			que.add(a);

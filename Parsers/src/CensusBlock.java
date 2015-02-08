@@ -15,31 +15,32 @@ public class CensusBlock implements Comparable<CensusBlock>{
 	public double employmentAccessability;
 	public double perctIncreaseMedianHHIncome;
 	
-	
+	// averages
 	public static double avg_transit = 1.33;
 	public static double avg_size = 5790.21;
-	public static double avg_crime = 20;
+	public static double avg_crime = 122.76;
 	public static double avg_perctIncreaseMedianHHIncome = 18.06;
 
 
-	
+	// These weights are set base on knowledges, but we can use machine learning to adjust these weights
+	// later on in the future
 	public static double wgt_transit = 1;
 	public static double wgt_size = 3;
 	public static double wgt_crime = -3;
 	public static double wgt_medianHHIncome = 2;
 	public static double wgt_housingAsPercent = -2;
 	public static double wgt_transitAsPercent = -1;
-	public static double wgt_employmentAccessability = 2;
-	public static double wgt_perctIncreaseMedianHHIncome = 2;
+	public static double wgt_employmentAccessability = 3;
+	public static double wgt_perctIncreaseMedianHHIncome = 3;
 	
 	public CensusBlock() {
 		fips = "";
 		lat = "";
 		lon = "";
-		transit = 0;
-		size = 0;
-		crime = 0;
-		medianHHIncome = 0;
+		transit = 1.33;
+		size = 5790.21;
+		crime = 122.76;
+		medianHHIncome = 18.06;
 		housingAsPercent = 0;
 		transitAsPercent = 0;
 		employmentAccessability = 0;
