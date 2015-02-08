@@ -11,7 +11,7 @@
     <script type="text/javascript">
       var data;
       var map;
-      var max = 100;
+      var max = 10;
       function initialize() {
         var mapOptions = {
           center: { lat: 41.8369, lng: -87.6847},
@@ -40,7 +40,7 @@
       }
 
       function refreshMarkers() {
-        for(var i = 0; i < data.length && i < 100; i++) {
+        for(var i = 0; i < data.length && i < max; i++) {
           var datum = data[i];
           var marker = new google.maps.Marker({
             position: {lat: parseFloat(datum[1]), lng: parseFloat(datum[2])},

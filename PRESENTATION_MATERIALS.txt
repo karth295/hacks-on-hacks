@@ -1,0 +1,5 @@
+We didn't end up using these slides (for time reasons), but here is the presentation.
+
+http://slides.com/karthikpalaniappan/deck/live
+
+Note: We don't talk a lot about our algorithm, or why the plots of land we found was "good" for development, but the code should make it more clear. In general, the top data points had a high employment accessibility, low crime rate, high median income, etc.
